@@ -1,6 +1,9 @@
-import timeago from 'timeago.js';
+const timeago = require("timeago.js");
+
+//import timeago from 'timeago.js';
+
 //const timeago = require('timeago.js');
-const timeagoInstance = timeago();
+const timeagoInstance = timeago;
 
 const helpers = {};
 
@@ -8,4 +11,5 @@ helpers.timeago = (savedTimestamp) => {
     return timeagoInstance.format(savedTimestamp);
 };
 
-export default helpers;
+module.exports = helpers;
+//export default helpers;
