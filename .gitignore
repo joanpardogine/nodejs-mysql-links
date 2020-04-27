@@ -2,3 +2,4 @@ node_modules
 
 # environemnt variables
 .env
+nodejs-mysql-links.code-workspace
